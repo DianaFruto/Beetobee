@@ -1,9 +1,16 @@
   p {
-    color: blue;
+    color: #0F5259;
   }
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+body {
+    background-color: #F5F5DC;
+}
+
+p {
+    font-size: 150px;
 }
 
