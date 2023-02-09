@@ -1,72 +1,86 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title>Beedo</title>
+    <title>Agencia de Marketing</title>
     <style>
-      /* Estilos para el contenedor */
+      /* Estilos para el contenedor principal */
       .container {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
       }
-
+      
+      /* Estilos para la sección de encabezado */
+      header {
+        background-color: blue;
+        color: white;
+        padding: 20px;
+        width: 100%;
+      }
+      
       /* Estilos para la imagen */
-      .image {
+      img {
         width: 50%;
         padding: 20px;
       }
-
-      /* Estilos para el primer título */
-      .title1 {
+      
+      /* Estilos para los títulos */
+      h1, h2 {
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        text-align: center;
+        margin: 20px 0;
+      }
+      
+      /* Estilos para los párrafos */
+      p {
+        font-family: Georgia, serif;
+        font-size: 18px;
+        text-align: justify;
+        margin: 20px 0;
+        width: 80%;
+      }
+      
+      /* Estilos para el menú */
+      nav {
+        display: flex;
+        justify-content: center;
+        background-color: lightgray;
+        padding: 10px;
+      }
+      
+      /* Estilos para los enlaces del menú */
+      nav a {
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        margin: 0 20px;
+        text-decoration: none;
+        color: black;
+      }
+      
+      /* Estilos para el botón de "Contactanos" */
+      .contact-button {
         background-color: blue;
         color: white;
         font-family: Arial, sans-serif;
-        font-size: 24px;
-        padding: 10px;
-        width: 100%;
-        text-align: center;
-      }
-
-      /* Estilos para el primer párrafo */
-      .paragraph1 {
-        font-family: Georgia, serif;
         font-size: 18px;
-        padding: 10px;
-        width: 50%;
-      }
-
-      /* Estilos para la franja */
-      .strip {
-        background-color: green;
-        color: white;
-        font-family: Arial, sans-serif;
-        padding: 20px;
-        width: 100%;
-      }
-
-      /* Estilos para el segundo título */
-      .title2 {
-        font-size: 22px;
-        text-align: center;
-      }
-
-      /* Estilos para el segundo párrafo */
-      .paragraph2 {
-        font-family: Georgia, serif;
-        font-size: 16px;
-        text-align: justify;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
+    <header>
+      <h1>Agencia de Marketing</h1>
+    </header>
     <div class="container">
-      <img class="image" src="image.jpg" alt="Mi imagen">
-      <div>
-        <h1 class="title1">Título Principal</h1>
-        <p class="paragraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor facilisis dolor, id fringilla ipsum. Maecenas a odio a eros mollis pharetra ut a nunc.</p>
-      </div>
-    </div>
-    <div class="strip">
-      <h2 class="title2">Otro Título</h2>
-      <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor facilisis dolor, id fringilla ipsum. Maecenas a odio a eros mollis pharetra ut a nunc. Proin aliquet erat a libero eleifend, ac blandit leo gravida. Nulla commodo ante ac arcu pellentesque, non semper dolor convallis.</p>
-    </div>
-  </body>
-</html>
+      <img src="https://picsum.photos/200" alt="Imagen de la agencia de marketing">
+      <h2>Bienvenidos a nuestra agencia de marketing</h2>
+      <p>Somos una agencia especializada en soluciones de marketing para empresas de todos los tamaños. Ofrecemos una amplia gama de servicios, desde estrategias de branding hasta campañas publicitarias en línea y marketing de contenido.</p>
+      <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Servicios</a>
+        <a href="#
+
