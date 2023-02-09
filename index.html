@@ -1,16 +1,72 @@
-<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Beedo</title>
+    <style>
+      /* Estilos para el contenedor */
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      /* Estilos para la imagen */
+      .image {
+        width: 50%;
+        padding: 20px;
+      }
+
+      /* Estilos para el primer título */
+      .title1 {
+        background-color: blue;
+        color: white;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* Estilos para el primer párrafo */
+      .paragraph1 {
+        font-family: Georgia, serif;
+        font-size: 18px;
+        padding: 10px;
+        width: 50%;
+      }
+
+      /* Estilos para la franja */
+      .strip {
+        background-color: green;
+        color: white;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        width: 100%;
+      }
+
+      /* Estilos para el segundo título */
+      .title2 {
+        font-size: 22px;
+        text-align: center;
+      }
+
+      /* Estilos para el segundo párrafo */
+      .paragraph2 {
+        font-family: Georgia, serif;
+        font-size: 16px;
+        text-align: justify;
+      }
+    </style>
   </head>
   <body>
-     <div class="center">
-      <p>Somos Beetobee</p>
-       </div>
-     <div class="franja"></div>
-    <div class="center">
-      <img src="img/Cteam-working-together-on-project.jpg" alt="Cteam-working-together-on-project">
+    <div class="container">
+      <img class="image" src="image.jpg" alt="Mi imagen">
+      <div>
+        <h1 class="title1">Título Principal</h1>
+        <p class="paragraph1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor facilisis dolor, id fringilla ipsum. Maecenas a odio a eros mollis pharetra ut a nunc.</p>
+      </div>
     </div>
-    <p> Monitorear, analizar y optimizar</p>
+    <div class="strip">
+      <h2 class="title2">Otro Título</h2>
+      <p class="paragraph2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor facilisis dolor, id fringilla ipsum. Maecenas a odio a eros mollis pharetra ut a nunc. Proin aliquet erat a libero eleifend, ac blandit leo gravida. Nulla commodo ante ac arcu pellentesque, non semper dolor convallis.</p>
+    </div>
   </body>
 </html>
