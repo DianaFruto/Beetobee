@@ -1,54 +1,66 @@
-  /* Estilos para el contenedor */
+ /* Estilos para el contenedor principal */
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para la sección de encabezado */
+header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  width: 100%;
 }
 
 /* Estilos para la imagen */
-.image {
+img {
   width: 50%;
   padding: 20px;
 }
 
-/* Estilos para el primer título */
-.title1 {
+/* Estilos para los títulos */
+h1, h2 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Estilos para los párrafos */
+p {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  text-align: justify;
+  margin: 20px 0;
+  width: 80%;
+}
+
+/* Estilos para el menú */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+/* Estilos para los enlaces del menú */
+nav a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Estilos para el botón de "Contactanos" */
+.contact-button {
   background-color: blue;
   color: white;
   font-family: Arial, sans-serif;
-  font-size: 24px;
-  padding: 10px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Estilos para el primer párrafo */
-.paragraph1 {
-  font-family: Georgia, serif;
   font-size: 18px;
-  padding: 10px;
-  width: 50%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-
-/* Estilos para la franja */
-.strip {
-  background-color: green;
-  color: white;
-  font-family: Arial, sans-serif;
-  padding: 20px;
-  width: 100%;
-}
-
-/* Estilos para el segundo título */
-.title2 {
-  font-size: 22px;
-  text-align: center;
-}
-
-/* Estilos para el segundo párrafo */
-.paragraph2 {
-  font-family: Georgia, serif;
-  font-size: 16px;
-  text-align: justify;
-}
-
-
