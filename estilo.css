@@ -7,7 +7,7 @@
 
 /* Estilos para la sección de encabezado */
 header {
-  background-color: blue;
+  background-color: #162759;
   color: white;
   padding: 20px;
   width: 100%;
@@ -40,7 +40,7 @@ p {
 nav {
   display: flex;
   justify-content: center;
-  background-color: lightgray;
+  background-color: #05DBF2;
   padding: 10px;
 }
 
